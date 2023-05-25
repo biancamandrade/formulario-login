@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(94, 110, 110);
+}
+form {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nome, .email, .tel, .nasc, .curric{
+    display: block;
+    width: 96%;
+}
+
+.campo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.form-button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+
+
